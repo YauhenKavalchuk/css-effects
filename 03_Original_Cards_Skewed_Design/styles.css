@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(#000000, #01042d);
+  font-family: "Titillium Web", sans-serif;
+}
+
+.contaner {
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  position: relative;
+  padding: 20px;
+  color: #fff;
+}
+
+.content h2 {
+  position: absolute;
+  top: -60px;
+  right: 20px;
+  margin: 0;
+  padding: 0;
+  font-size: 160px;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.06);
+  transition: 0.5s;
+}
+
+.content h3 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.content p {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.content button {
+  cursor: pointer;
+  position: relative;
+  margin: 20px 0 0;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: 0.5s;
+  transform: translateY(-40px);
+  opacity: 0;
+  visibility: hidden;
+  text-transform: uppercase;
+  font-size: 12px;
+  z-index: 1;
+}
+
+.content button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.box {
+  width: 260px;
+  min-height: 380px;
+  cursor: pointer;
+  position: relative;
+  background-color: #040a20;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.box:hover .content h2 {
+  top: -140px;
+}
+
+.box:hover .content button {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.box:before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  background-color: #fff;
+  transform: skew(2deg, 2deg);
+  z-index: -1;
+}
+
+.box:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.box:nth-child(1):before {
+  background: linear-gradient(#ff0000, #0037ff);
+}
+
+.box:nth-child(2):before {
+  background: linear-gradient(#d8ff00, #17f4ff);
+}
+
+.box:nth-child(3):before {
+  background: linear-gradient(#af36ff, #ff0070);
+}
