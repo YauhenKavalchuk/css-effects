@@ -5,6 +5,7 @@
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
 ## Список уроков:
+- #04 Social Media Buttons with Incredible Hover Animation
 - #03 Original Cards Skewed Design
 - #02 Amazing 3D Flip Card Effect
 - #01 Button Hover Animation
