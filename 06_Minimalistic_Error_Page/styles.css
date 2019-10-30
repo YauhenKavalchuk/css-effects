@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(45deg, #2e3192, #1bffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h2 {
+  margin: 10px 0;
+}
+
+.container h1 {
+  margin: 0;
+  font-size: 170px;
+  font-weight: 800;
+  letter-spacing: 20px;
+  background: url(https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.container p {
+  font-size: 20px;
+}
+
+.container a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #fa1918;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 3% 6%;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.container a:hover {
+  background-color: #45145a;
+  box-shadow: -5px 5px 20px -5px #010101;
+}

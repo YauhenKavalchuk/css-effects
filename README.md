@@ -6,11 +6,12 @@
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
 ## Список уроков:
-- #05 Neon Light Button
-- #04 Social Media Buttons with Incredible Hover Animation
-- #03 Original Cards Skewed Design
-- #02 Amazing 3D Flip Card Effect
-- #01 Button Hover Animation
+- #6 Minimalistic Error Page
+- #5 Neon Light Button
+- #4 Social Media Buttons with Incredible Hover Animation
+- #3 Original Cards Skewed Design
+- #2 Amazing 3D Flip Card Effect
+- #1 Button Hover Animation
 
 ## Автор курса в социальных сетях:
 Social network | Link to Profile
