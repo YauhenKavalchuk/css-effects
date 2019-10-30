@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #333, #5A5454);
+}
+
+button {
+  font-family: "Gochi Hand", cursive;
+  position: relative;
+  color: #1BFFFF;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-size: 100px;
+  letter-spacing: 3px;
+  overflow: hidden;
+  padding: 5% 10%;
+  cursor: pointer;
+  border: none;
+  transition: 0.6s ease;
+}
+
+button:hover {
+  color: #333;
+  background-color: #1BFFFF;
+  transition-delay: 0.5s;
+  box-shadow: 0 0 10px #1BFFFF, 0 0 40px #1BFFFF, 0 0 80px #1BFFFF;
+}
+
+button:hover span:nth-child(1) {
+  left: 100%;
+}
+
+button:hover span:nth-child(2) {
+  top: 100%;
+}
+
+button:hover span:nth-child(3) {
+  right: 100%;
+}
+
+button:hover span:nth-child(4) {
+  bottom: 100%;
+}
+
+button span {
+  display: block;
+  position: absolute;
+  transition: 0.6s ease;
+}
+
+button span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, transparent, #1BFFFF);
+  transition-delay: 0.25s;
+}
+
+button span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #1BFFFF);
+}
+
+button span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(270deg, transparent, #1BFFFF);
+  transition-delay: 0.25s;
+}
+
+button span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(0, transparent, #1BFFFF);
+}
