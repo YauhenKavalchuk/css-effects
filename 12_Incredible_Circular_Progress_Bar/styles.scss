@@ -1,0 +1,165 @@
+%center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  @extend %center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #333333, #5A5454);
+}
+
+.container {
+  position: relative;
+  width: 960px;
+  display: flex;
+  justify-content: space-around;
+
+  .card {
+    @extend %center;
+    position: relative;
+    width: 250px;
+    height: 330px;
+    border-radius: 10px;
+    background: rgba(0,0,0,.5);
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    transition: .5s ease;
+
+    &:hover {
+      transform: translatey(-15px);
+      box-shadow: 0 15px 30px rgba(0,0,0,.5);
+
+      .number {
+        h2 {
+          color: #fff;
+          font-size: 50px;
+
+          span {
+            color: #fff;
+          }
+        }
+      }
+
+      h3 {
+        color: #fff;
+      }
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -50%;
+      width: 100%;
+      height: 100%;
+      background: rgba(255,255,255,.03);
+      pointer-events: none;
+    }
+  }
+
+  .percent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000;
+    background-color: #222;
+    z-index: 1;
+
+    .number {
+      @extend %center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+
+      h2 {
+        color: #777;
+        font-size: 44px;
+        transition: .5s ease;
+
+        span {
+          color: #777;
+          padding-left: 3px;
+          font-size: 24px;
+          transition: .5s ease;
+        }
+      }
+    }
+
+    h3 {
+      margin-top: 16px;
+      color: #777;
+      font-size: 22px;
+      transition: .5s ease;
+    }
+  }
+}
+
+svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  transform: rotate(-85deg);
+
+  circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #191919;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+
+    &:nth-child(2) {
+      stroke-dasharray: 440;
+      stroke-dashoffset: 440;
+    }
+  }
+}
+
+.card {
+  &:nth-child(1) {
+    svg {
+      circle {
+        &:nth-child(2) {
+          stroke-dashoffset: calc(440 - (440 * 90) / 100);
+          stroke: #63E2FF;
+        }
+      }
+    }
+  }
+
+  &:nth-child(2) {
+    svg {
+      circle {
+        &:nth-child(2) {
+          stroke-dashoffset: calc(440 - (440 * 60) / 100);
+          stroke: #D9E021;
+        }
+      }
+    }
+  }
+
+  &:nth-child(3) {
+    svg {
+      circle {
+        &:nth-child(2) {
+          stroke-dashoffset: calc(440 - (440 * 40) / 100);
+          stroke: #ED1E79;
+        }
+      }
+    }
+  }
+}

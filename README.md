@@ -6,6 +6,7 @@
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
 ## Список уроков:
+- #12 Incredible Circular Progress Bar
 - #11 Outstanding Animated Gradient Buttons
 - #10 Animated Preloader Text
 - #9 Super 3D Spinner Animation
