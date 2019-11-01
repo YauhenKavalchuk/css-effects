@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #009245, #FCEE21);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+.spinner .circle,
+.spinner .line {
+  width: 260px;
+  height: 260px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.spinner .circle {
+  position: relative;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  animation: spinn 6s infinite linear;
+}
+
+.spinner .line {
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: 0;
+  bottom: 0;
+  left: -5px;
+}
+
+.spinner .line:nth-child(1) {
+  transform: rotateY(36deg);
+}
+
+.spinner .line:nth-child(2) {
+  transform: rotateY(72deg);
+}
+
+.spinner .line:nth-child(3) {
+  transform: rotateY(108deg);
+}
+
+.spinner .line:nth-child(4) {
+  transform: rotateY(144deg);
+}
+
+@keyframes spinn {
+  100% {
+    transform: rotatey(360deg) rotatez(360deg);
+  }
+}

@@ -6,6 +6,7 @@
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
 ## Список уроков:
+- #9 Super 3D Spinner Animation
 - #8 Animated Progress Bar
 - #7 Responsive Navigation Menu
 - #6 Minimalistic Error Page
