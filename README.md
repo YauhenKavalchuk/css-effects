@@ -6,6 +6,7 @@
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
 ## Список уроков:
+- #8 Animated Progress Bar
 - #7 Responsive Navigation Menu
 - #6 Minimalistic Error Page
 - #5 Neon Light Button

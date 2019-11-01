@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(45deg, #93278F, #00A99D);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 200px;
+  margin: 0;
+}
+
+.progress {
+  cursor: pointer;
+  background: #111;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 70px;
+  padding: 6px;
+}
+
+.progress:hover .fill {
+  animation-play-state: running;
+}
+
+.progress:hover .number {
+  transform: translateY(-40px);
+  visibility: visible;
+  opacity: 1;
+}
+
+.progress:nth-child(1) .fill {
+  background-color: #ff0000;
+  width: 35%;
+}
+
+.progress:nth-child(2) .fill {
+  background-color: #008000;
+  width: 65%;
+}
+
+.progress:nth-child(3) .fill {
+  background-color: #0000ff;
+  width: 95%;
+}
+
+.progress .number {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: 0.3s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.progress .fill {
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.5) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.5) 75%, transparent 75%, transparent);
+  background-size: 40px;
+  border-radius: 5px;
+  animation: move 0.5s linear infinite paused;
+  height: 100%;
+}
+
+@keyframes move {
+  100% {
+    background-position: 40px 0;
+  }
+}
