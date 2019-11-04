@@ -10,13 +10,13 @@ body {
 }
 
 .card {
-    width: 300px;
-    height: 200px;
-    border: 10px solid #f1f1f1;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    box-shadow: -5px 5px 10px -5px #010101;
+  width: 300px;
+  height: 200px;
+  border: 10px solid #f1f1f1;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  box-shadow: -5px 5px 10px -5px #010101;
 
   .content {
     display: flex;
@@ -32,7 +32,7 @@ body {
     color: #fff;
     opacity: 0;
     transform: translate(400px, -100px) rotate(180deg);
-    transition: all .4s ease-in-out;
+    transition: .4s ease-in-out;
   }
 
   img {
@@ -42,25 +42,23 @@ body {
 
   h2 {
     text-transform: uppercase;
-    text-align: center;
     position: relative;
     letter-spacing: 1px;
     font-size: 16px;
     margin: 0;
     padding: 15px 10px;
-    background: rgba(0,0,0,.8);
-    transform: translateY(-100px);
-	  transition: .2s ease-in-out;
+    background-color: rgba(0,0,0,.8);
+    transform: translatey(-100px);
+    transition: .2s ease-in-out;
   }
 
   p {
     font-size: 14px;
     font-weight: 300;
     position: relative;
-    text-align: center;
-    transform: translateX(300px) rotate(90deg);
-	  transition: .2s ease-in-out;
     padding: 0 10px;
+    transform: translatex(300px) rotate(90deg);
+    transition: .2s ease-in-out;
   }
 
   a {
@@ -72,14 +70,14 @@ body {
     border: 1px solid #fff;
     color: #fff;
     text-transform: uppercase;
-    transform: translateY(-200px);
+    transform: translatey(-200px);
     transition: .2s ease-in-out;
 
     &:hover {
-      background: rgba(255,255,255,.3);
+      background-color: rgba(255,255,255,.3);
     }
   }
-  
+
   &:hover {
     .content {
       opacity: 1;
@@ -88,17 +86,17 @@ body {
     }
 
     h2 {
-      transform: translateY(0);
+      transform: translatey(0);
       transition-delay: .5s;
     }
 
-    p	{
-      transform: translateX(0) rotate(0);
+    p {
+      transform: translatex(0) rotate(0);
       transition-delay: .4s;
     }
 
     a {
-      transform: translateY(0);
+      transform: translatey(0);
       transition-delay: .3s;
     }
   }
