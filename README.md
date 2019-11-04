@@ -6,7 +6,8 @@
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
 ## Список уроков:
-= #13 Original Card Spin Hover Effect
+- #14 Animated Pacman Preloader
+- #13 Original Card Spin Hover Effect
 - #12 Incredible Circular Progress Bar
 - #11 Outstanding Animated Gradient Buttons
 - #10 Animated Preloader Text
