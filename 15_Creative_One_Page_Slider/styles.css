@@ -1,0 +1,131 @@
+body {
+  height: 100vh;
+  color: #fff;
+  font-family: "Sedgwick Ave Display", cursive;
+  overflow: hidden;
+}
+
+input {
+  display: none;
+}
+
+input#section1:checked ~ nav label[for=section1] {
+  background-color: #fff;
+}
+
+input#section1:checked ~ section:nth-of-type(1) {
+  bottom: 0;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+input#section1:checked ~ .cover {
+  background-color: #662d8c;
+}
+
+input#section2:checked ~ nav label[for=section2] {
+  background-color: #fff;
+}
+
+input#section2:checked ~ section:nth-of-type(2) {
+  bottom: 0;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+input#section2:checked ~ .cover {
+  background-color: #009245;
+}
+
+input#section3:checked ~ nav label[for=section3] {
+  background-color: #fff;
+}
+
+input#section3:checked ~ section:nth-of-type(3) {
+  bottom: 0;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+input#section3:checked ~ .cover {
+  background-color: #2e3192;
+}
+
+input#section4:checked ~ nav label[for=section4] {
+  background-color: #fff;
+}
+
+input#section4:checked ~ section:nth-of-type(4) {
+  bottom: 0;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+input#section4:checked ~ .cover {
+  background-color: #ed1c24;
+}
+
+nav {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+nav label {
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin: 12px 0;
+  border: solid 2px #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+nav label:hover {
+  background-color: #fff;
+}
+
+section {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-delay: 0.5s;
+}
+
+section:nth-of-type(1) {
+  background-color: #662d8c;
+}
+
+section:nth-of-type(2) {
+  background-color: #009245;
+}
+
+section:nth-of-type(3) {
+  background-color: #2e3192;
+}
+
+section:nth-of-type(4) {
+  background-color: #ed1c24;
+}
+
+section h2 {
+  font-size: 140px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.cover {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

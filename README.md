@@ -6,6 +6,7 @@
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
 ## Список уроков:
+- #15 Creative One Page Slider
 - #14 Animated Pacman Preloader
 - #13 Original Card Spin Hover Effect
 - #12 Incredible Circular Progress Bar
