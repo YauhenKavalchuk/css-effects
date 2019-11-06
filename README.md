@@ -6,6 +6,7 @@
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
 ## Список уроков:
+- #18 Amazing 3D Flip Social Media Buttons
 - #17 Glitch Effect
 - #16 Pure CSS Parallax Effect
 - #15 Creative One Page Slider
