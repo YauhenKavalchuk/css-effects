@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #333;
+}
+
+button {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  width: 250px;
+  font-weight: 600;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+button:hover .wave {
+  top: -150px;
+}
+
+button span {
+  position: relative;
+}
+
+button .wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(45deg, #4F00BC, #29ABE2);
+  transition: .5s ease;
+}
+
+button .wave:after, button .wave:before {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+
+button .wave:after {
+  border-radius: 40%;
+  background: rgba(51, 51, 51, 0.5);
+  animation: wave 7s linear infinite;
+}
+
+button .wave:before {
+  border-radius: 45%;
+  background: #333333;
+  animation: wave 12s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  0% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
