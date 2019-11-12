@@ -6,6 +6,7 @@
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
 ## Список уроков:
+- #20 Super Image Card Hover Effect
 - #19 Awesome Water Wave Button
 - #18 Amazing 3D Flip Social Media Buttons
 - #17 Glitch Effect

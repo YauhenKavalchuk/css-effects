@@ -1,0 +1,137 @@
+%absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #00A8C5, #FFFF7E);
+}
+
+.wrapper {
+  width: 90%;
+	display: flex;
+  justify-content: space-around;
+}
+
+figure {
+  position: relative;
+	overflow: hidden;
+	min-width: 320px;
+  max-width: 480px;
+  max-height: 360px;
+	background: #00e8ff;
+	text-align: center;
+  box-shadow: -1px 1px 15px -5px #010101;
+  margin: 0;
+
+  img {
+    height: 390px;
+    opacity: .8;
+    transform: translate3d(0, -30px, 0);
+    transition: opacity .35s, transform .35s;
+  }
+
+  figcaption {
+    @extend %absolute;
+    box-sizing: border-box;
+    padding: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px #010101;
+
+    &:after,
+    &:before {
+      pointer-events: none;
+      position: absolute;
+      content: '';
+      opacity: 0;
+      transition: opacity .35s, transform .35s;
+    }
+
+    &:after {
+      top: 30px;
+      right: 50px;
+      bottom: 30px;
+      left: 50px;
+      border-right: 1px solid #fff;
+      border-left: 1px solid #fff;
+      transform: scale(1, 0);
+      transform-origin: 100% 0;
+    }
+
+    &:before {
+      top: 50px;
+      right: 30px;
+      bottom: 50px;
+      left: 30px;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      transform: scale(0, 1);
+      transform-origin: 0 0;
+    }
+
+    h2 {
+      text-align: right;
+      text-transform: uppercase;
+      margin: 0;
+      padding-top: 25%;
+      transition: transform .35s;
+      transform: translate3d(0, -30px, 0);
+    }
+
+    p {
+	    font-size: 14px;
+      font-weight: 300;
+      opacity: 0;
+      transform: translate3d(0, 10px, 0);
+      transition: opacity .5s, transform .4s;
+    }
+
+    a {
+      @extend %absolute;
+      z-index: 1000;
+      font-size: 0;
+      opacity: 0;
+    }
+  }
+}
+
+figure {
+  &:hover {
+    img {
+      opacity: .7;
+      transform: translate3d(0, 0, 0);
+    }
+
+    figcaption {
+      &:after,
+      &:before {
+        opacity: 1;
+	      transform: scale(1);
+      }
+
+      &:after {
+        transition-delay: .15s;
+      }
+    }
+
+    h2, p {
+      opacity: 1;
+      transform: translate3d(0,0,0);
+    }
+
+    h2, p, img {
+      transition-delay: .15s;
+    }
+  }
+}
