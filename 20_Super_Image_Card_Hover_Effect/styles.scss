@@ -18,18 +18,18 @@ body {
 
 .wrapper {
   width: 90%;
-	display: flex;
+  display: flex;
   justify-content: space-around;
 }
 
 figure {
   position: relative;
-	overflow: hidden;
-	min-width: 320px;
+  overflow: hidden;
+  min-width: 320px;
   max-width: 480px;
   max-height: 360px;
-	background: #00e8ff;
-	text-align: center;
+  background: #00e8ff;
+  text-align: center;
   box-shadow: -1px 1px 15px -5px #010101;
   margin: 0;
 
