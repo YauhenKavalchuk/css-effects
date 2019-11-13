@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #333333, #5A5454);
+}
+
+.wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  font-family: 'Montserrat', sans-serif;
+  width: 190px;
+  height: 240px;
+  background: linear-gradient(240deg, #808080, #E6E6E6);
+  border-radius: 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.card:nth-child(1) .price {
+  background: linear-gradient(45deg, #B066FE, #63E2FF);
+}
+
+.card:nth-child(2) .price {
+  background: linear-gradient(45deg, #ED1C24, #FCEE21);
+}
+
+.card:nth-child(3) .price {
+  background: linear-gradient(45deg, #00FFA1, #00FFFF);
+}
+
+.card .picture {
+  text-align: center;
+}
+
+.card .picture img {
+  position: relative;
+  width: 130px;
+  top: -60px;
+  z-index: 1;
+}
+
+.card .price {
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+  width: 120px;
+  height: 200px;
+  border-radius: 20px 20px 0 20px;
+  transform: skewy(40deg);
+}
+
+.card .price span {
+  position: absolute;
+  top: 130px;
+  left: 40px;
+  font-size: 28px;
+  color: #fff;
+  font-weight: 700;
+  transform: skewy(-40deg);
+}
+
+.card .info {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.card .info .icon {
+  font-size: 12px;
+  color: #606060;
+  text-align: left;
+  letter-spacing: 1px;
+  position: absolute;
+}
+
+.card .info .icon img {
+  padding-left: 10px;
+  width: 40px;
+}
+
+.card .name {
+  font-size: 14px;
+  color: #606060;
+  font-weight: 600;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  max-width: 80px;
+}
