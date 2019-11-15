@@ -6,6 +6,7 @@
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
 ## Список уроков:
+- #22 Stylish Animated Gradient Shadow Effect
 - #21 Incredibly Creative Product Card
 - #20 Super Image Card Hover Effect
 - #19 Awesome Water Wave Button
