@@ -1,0 +1,74 @@
+nav ul li a:before, nav ul li:before, nav ul li:after {
+  content: '';
+  position: absolute;
+  height: 33.33%;
+  width: 0;
+  background-color: #FB872B;
+  transition: .4s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #93278F, #00A99D);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  position: relative;
+  padding: 4px 15px;
+  margin: 0 5px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li a {
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 10px 5px;
+  transition: .4s ease;
+  z-index: 1;
+}
+
+nav ul li a:before {
+  left: 0;
+  bottom: 66.66%;
+}
+
+nav ul li:before {
+  right: 0;
+  top: 33.33%;
+}
+
+nav ul li:after {
+  left: 0;
+  bottom: 0;
+}
+
+nav ul li:hover a {
+  text-shadow: 1px 1px 5px #000;
+}
+
+nav ul li:hover a:before {
+  width: 100%;
+}
+
+nav ul li:hover:before, nav ul li:hover:after {
+  width: 100%;
+}
