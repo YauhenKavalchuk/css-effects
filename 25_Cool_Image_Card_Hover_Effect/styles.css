@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(225deg, #ffff7e, #00a8c5);
+}
+
+figure {
+  width: 450px;
+  height: 300px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 0 15px -5px #010101;
+}
+
+figure img {
+  height: 100%;
+  width: auto;
+}
+
+figure figcaption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 30px 40px;
+}
+
+figure figcaption h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #3c3c3c;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transform: translatey(20px);
+  transition: .3s ease;
+}
+
+figure figcaption ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  right: 15px;
+  bottom: 30px;
+  display: flex;
+}
+
+figure figcaption ul li {
+  margin: 0 15px;
+  transform: translatey(80px);
+}
+
+figure figcaption ul li:nth-child(1) {
+  transition: .4s .05s;
+}
+
+figure figcaption ul li:nth-child(2) {
+  transition: .4s .1s;
+}
+
+figure figcaption ul li:nth-child(3) {
+  transition: .4s .15s;
+}
+
+figure figcaption ul .icon {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  transition: .5s ease;
+}
+
+figure figcaption ul .icon:hover {
+  color: #16d6c4;
+}
+
+figure figcaption:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+  background: rgba(0, 0, 0, 0.5);
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  transition: .5s ease;
+}
+
+figure figcaption:hover h2, figure figcaption:hover li {
+  transform: translatey(0);
+}
+
+figure figcaption:hover:before {
+  height: 150px;
+}

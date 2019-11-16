@@ -6,6 +6,7 @@
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
 ## Список уроков:
+- #25 Cool Image Card Hover Effect
 - #24 Super Creative Product Card Border Animation
 - #23 Original Navigation Menu Hover Effect
 - #22 Stylish Animated Gradient Shadow Effect
