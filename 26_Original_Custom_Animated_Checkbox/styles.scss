@@ -1,0 +1,68 @@
+$btnSize: 116px;
+$switchWidth: 300px;
+$padding: 7px;
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: radial-gradient(#00FFEE, #D585FF);
+}
+
+input {
+  display: none;
+}
+
+label {
+  box-sizing: border-box;
+  position: relative;
+  width: $switchWidth;
+  height: 130px;
+  padding: $padding;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .6) inset;
+  border-radius: 65px;
+  cursor: pointer;
+  background: linear-gradient(to right, #ed1c24 0, #ff5a2f 45%, #7fd03e 55%, #009e00 100%) 0 0;
+  background-size: (($switchWidth * 2) + 50) 100%;
+  transition: .3s ease;
+
+  &:before {
+    content: 'Off';
+    width: $btnSize;
+    height: $btnSize;
+    position: absolute;
+    left: $padding;
+    top: $padding;
+    font-family: 'Montserrat', sans-serif;
+    background: radial-gradient(#ffffff, #f0f0f0);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .6);
+    border-radius: 100%;
+    text-align: center;
+    line-height: $btnSize;
+    font-size: 30px;
+    color: #ed1c24;
+    text-transform: uppercase;
+    transition: left .3s ease,
+                color .3s ease,
+                transform .1s ease;
+  }
+
+  &:active {
+    &:before {
+      transform: scale(0.9);
+    }
+  }
+}
+
+input:checked + label {
+  background-position-x: -($switchWidth + 50);
+
+  &:before {
+    content: 'On';
+    color: #009e00;
+    left: ($switchWidth - $btnSize - $padding);
+  }
+}

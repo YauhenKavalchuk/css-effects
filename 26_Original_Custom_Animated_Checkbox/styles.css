@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: radial-gradient(#00ffee, #d585ff);
+}
+
+input {
+  display: none;
+}
+
+label {
+  box-sizing: border-box;
+  position: relative;
+  width: 300px;
+  height: 130px;
+  padding: 7px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6) inset;
+  border-radius: 65px;
+  cursor: pointer;
+  background: linear-gradient(to right, #ed1c24 0, #ff5a2f 45%, #7fd03e 55%, #009e00 100%) 0 0;
+  background-size: 650px 100%;
+  transition: .3s ease;
+}
+
+label:before {
+  content: 'Off';
+  width: 116px;
+  height: 116px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  font-family: 'Montserrat', sans-serif;
+  background: radial-gradient(#ffffff, #f0f0f0);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  border-radius: 100%;
+  text-align: center;
+  line-height: 116px;
+  font-size: 30px;
+  color: #ed1c24;
+  text-transform: uppercase;
+  transition: left .3s ease, color .3s ease, transform .1s ease;
+}
+
+label:active:before {
+  transform: scale(0.9);
+}
+
+input:checked + label {
+  background-position-x: -350px;
+}
+
+input:checked + label:before {
+  content: 'On';
+  color: #009e00;
+  left: 177px;
+}
