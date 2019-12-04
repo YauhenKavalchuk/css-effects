@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #FCA5F1, #B5FFFF);
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+}
+input[type="radio"]:checked + label {
+  background-color: #2E3192;
+  color: #fff;
+  box-shadow: -2px 2px 20px -8px #010101;
+}
+
+label {
+  height: 150px;
+  width: 200px;
+  margin: 50px;
+  border: 5px solid #7578e7;
+  border-radius: 20px;
+  color: #2E3192;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s ease;
+}
+label .fa {
+  font-size: 70px;
+}
+label span {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
