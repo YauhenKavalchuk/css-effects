@@ -1,0 +1,53 @@
+$size: 50px;
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #00B7FF, #FFFFC7);
+}
+
+.search {
+  display: flex;
+  background: linear-gradient(45deg, #333, #5A5454);
+  height: $size;
+  border-radius: $size;
+  padding: 5px;
+
+  &:hover {
+    input {
+      width: 250px;
+      padding: 0 10px;
+    }
+
+    button {
+      background-color: #E6E6E6;
+    }
+  }
+
+  input {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 18px;
+    color: #fff;
+    width: 0;
+    transition: .4s;
+  }
+
+  button {
+    color: #00B7FF;
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    border: none;
+    background-color: #333;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+  }
+}
