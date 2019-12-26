@@ -6,6 +6,7 @@
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
 ## Список уроков:
+- #30 Incredible Neon Checkbox
 - #29 Super Simple Animated Search Box
 - #28 Creative Payment Radio Button
 - #27 Super Stylish Custom Scrollbar

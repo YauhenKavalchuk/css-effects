@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0f0f0f;
+}
+
+label {
+  position: relative;
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label input {
+  -webkit-appearance: none;
+}
+
+label input:checked ~ i {
+  color: #00ffe7;
+  text-shadow: 0 0 15px #00a1ff, 0 0 30px #00a1ff;
+}
+
+label input:checked ~ span {
+  box-shadow: 0 0 0 #000, inset 0 -5px 5px #000, inset 0 2px 2px #fff, 0 0 0 10px #000, 0 0 40px 10px #00a1ff, 0 0 0 10px #0f0f0f, 0 0 0 12px #00a1ff;
+}
+
+label span {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #1b1b1b;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px #000, inset 0 -2px 5px #000, inset 0 2px 2px #fff, 0 0 0 2px #000, 0 0 0 5px #0f0f0f, 0 0 0 15px #080808;
+}
+
+label .fa {
+  z-index: 1;
+  font-size: 10em;
+}
