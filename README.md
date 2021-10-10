@@ -5,7 +5,13 @@
 Примерами будут служить оригинальные анимации, необычные трансформации и т.д.
 Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
 
-## Список уроков:
+### Поддержать развитие канала:
+[<img alt="webDev | YouTube Sponsor" src="https://img.shields.io/badge/Become a sponsor-F70000.svg?&style=for-the-badge&logo=youtube&logoColor=fff" />][sponsor]
+[<img alt="webDev | Patreon" src="https://img.shields.io/badge/Become a patron-EF6451.svg?&style=for-the-badge&logo=patreon&logoColor=fff" />][patron]
+
+---
+
+### Список уроков:
 - #31 Super Simple Stylish Hover Effect
 - #30 Incredible Neon Checkbox
 - #29 Super Simple Animated Search Box
@@ -38,22 +44,19 @@
 - #2 Amazing 3D Flip Card Effect
 - #1 Button Hover Animation
 
-## Автор курса в социальных сетях:
+---
 
-[<img align="left" alt="webDev | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="webDev | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-[<img align="left" alt="webDev | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="webDev | VK" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/vk.svg" />][vk]
-[<img align="left" alt="webDev | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]&nbsp;
-
-## Поддержать канал:
-
-<a href="https://www.patreon.com/YauhenKavalchuk" target="_blank">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
+### Связаться со мной:
+[<img alt="webDev | YouTube" src="https://img.shields.io/badge/youtube-FF0000.svg?&style=for-the-badge&logo=Instagram&logoColor=white" />][youtube]
+[<img alt="webDev | Instagram" src="https://img.shields.io/badge/instagram-E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white" />][instagram]
+[<img alt="webDev | LinkedIn" src="https://img.shields.io/badge/linkedin-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
+[<img alt="webDev | Twitter" src="https://img.shields.io/badge/twitter-1DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white" />][twitter]
+[<img alt="webDev | VK" src="https://img.shields.io/badge/vk-4680C2.svg?&style=for-the-badge&logo=Twitter&logoColor=white" />][vk]
 
 [youtube]: https://youtube.com/YauhenKavalchuk
 [instagram]: https://instagram.com/YauhenKavalchuk
 [linkedin]: https://linkedin.com/in/YauhenKavalchuk
 [vk]: https://vk.com/YauhenKavalchuk
 [twitter]: https://twitter.com/YauhenKavalchuk
+[sponsor]: https://www.youtube.com/channel/UCE9ODjNIkOHrnSdkYWLfYhg/join
+[patron]: https://www.patreon.com/YauhenKavalchuk
