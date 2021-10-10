@@ -12,37 +12,37 @@
 ---
 
 ### Список уроков:
-- #31 Super Simple Stylish Hover Effect
-- #30 Incredible Neon Checkbox
-- #29 Super Simple Animated Search Box
-- #28 Creative Payment Radio Button
-- #27 Super Stylish Custom Scrollbar
-- #26 Original Custom Animated Checkbox
-- #25 Cool Image Card Hover Effect
-- #24 Super Creative Product Card Border Animation
-- #23 Original Navigation Menu Hover Effect
-- #22 Stylish Animated Gradient Shadow Effect
-- #21 Incredibly Creative Product Card
-- #20 Super Image Card Hover Effect
-- #19 Awesome Water Wave Button
-- #18 Amazing 3D Flip Social Media Buttons
-- #17 Glitch Effect
-- #16 Pure CSS Parallax Effect
-- #15 Creative One Page Slider
-- #14 Animated Pacman Preloader
-- #13 Original Card Spin Hover Effect
-- #12 Incredible Circular Progress Bar
-- #11 Outstanding Animated Gradient Buttons
-- #10 Animated Preloader Text
-- #9 Super 3D Spinner Animation
-- #8 Animated Progress Bar
-- #7 Responsive Navigation Menu
-- #6 Minimalistic Error Page
-- #5 Neon Light Button
-- #4 Social Media Buttons with Incredible Hover Animation
-- #3 Original Cards Skewed Design
-- #2 Amazing 3D Flip Card Effect
-- #1 Button Hover Animation
+- [#31 Super Simple Stylish Hover Effect](https://youtu.be/-ZHXKSwFICE)
+- [#30 Incredible Neon Checkbox](https://youtu.be/E1byOJ9eOoE)
+- [#29 Super Simple Animated Search Box](https://youtu.be/OG2zy0-sRe8)
+- [#28 Creative Payment Radio Button](https://youtu.be/puA9tOWt7V8)
+- [#27 Super Stylish Custom Scrollbar](https://youtu.be/gv0tk3_Ou70)
+- [#26 Original Custom Animated Checkbox](https://youtu.be/tjMiFkQrHHQ)
+- [#25 Cool Image Card Hover Effect](https://youtu.be/5dbRRfmNsss)
+- [#24 Super Creative Product Card Border Animation](https://youtu.be/4eDhKnDhzb8)
+- [#23 Original Navigation Menu Hover Effect](https://youtu.be/FTvMze67TTo)
+- [#22 Stylish Animated Gradient Shadow Effect](https://youtu.be/3naanA-_Krw)
+- [#21 Incredibly Creative Product Card](https://youtu.be/T9Vq-8BXFXA)
+- [#20 Super Image Card Hover Effect](https://youtu.be/5dbRRfmNsss)
+- [#19 Awesome Water Wave Button](https://youtu.be/hSeNSV2Epzo)
+- [#18 Amazing 3D Flip Social Media Buttons](https://youtu.be/XlsEP9iQs1s)
+- [#17 Glitch Effect](https://youtu.be/gbXx9I1qQN4)
+- [#16 Pure CSS Parallax Effect](https://youtu.be/QEGsNQosAt0)
+- [#15 Creative One Page Slider](https://youtu.be/sOsDBYOi74Q)
+- [#14 Animated Pacman Preloader](https://youtu.be/t8jMqkEzpKo)
+- [#13 Original Card Spin Hover Effect](https://youtu.be/d1xGDF2ToEY)
+- [#12 Incredible Circular Progress Bar](https://youtu.be/hRYA1CXfwP4)
+- [#11 Outstanding Animated Gradient Buttons](https://youtu.be/TfziVoVo-94)
+- [#10 Animated Preloader Text](https://youtu.be/ITYNnrDSk68)
+- [#9 Super 3D Spinner Animation](https://youtu.be/LKI-i_J79EQ)
+- [#8 Animated Progress Bar](https://youtu.be/z-jJrClQXRQ)
+- [#7 Responsive Navigation Menu](https://youtu.be/z-3hnHn6V5w)
+- [#6 Minimalistic Error Page](https://youtu.be/32GwTL-8yXQ)
+- [#5 Neon Light Button](https://youtu.be/iha5Z6qv8xs)
+- [#4 Social Media Buttons with Incredible Hover Animation](https://youtu.be/IqMBPjwg8nM)
+- [#3 Original Cards Skewed Design](https://youtu.be/1JYPSI1ZDBc)
+- [#2 Amazing 3D Flip Card Effect](https://youtu.be/l7UbiJwE9mc)
+- [#1 Creative Button Hover Effect](https://youtu.be/qYkqQCohfAc)
 
 ---
 
