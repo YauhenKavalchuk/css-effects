@@ -1,9 +1,10 @@
-#  CSS Inspiration
+# CSS Эффекты
 
 ### Описание:
-"CSS Inspiration" - это мини видео-каст, в котором мы с вами будем рассматривать и создавать различные дизайнерские элементы пользовательского интерфейса.
-Примерами будут служить оригинальные анимации, необычные трансформации и т.д.
-Любой элемент можно можно использовать для вдохновения и дорабатывать самому.
+В данном видеокасте мы с вами будем рассматривать и создавать различные дизайнерские элементы пользовательского интерфейса (UI).
+Примерами будут служить оригинальные анимации, необычные трансформации и переходы.
+Любой элемент можно можно использовать для вдохновения, а так же дорабатывать или переделывать самостоятельно, т.к. весь код можно найти в GitHub репозитории.
+Разметка будет писаться на HTML, а все эффекты создаваться только с помощью CSS (с использованием препроцессора SASS).
 
 ### Поддержать развитие канала:
 [<img alt="webDev | YouTube Sponsor" src="https://img.shields.io/badge/Become a sponsor-F70000.svg?&style=for-the-badge&logo=youtube&logoColor=fff" />][sponsor]
@@ -12,37 +13,37 @@
 ---
 
 ### Список уроков:
-- [#31 Super Simple Stylish Hover Effect](https://youtu.be/-ZHXKSwFICE)
-- [#30 Incredible Neon Checkbox](https://youtu.be/E1byOJ9eOoE)
-- [#29 Super Simple Animated Search Box](https://youtu.be/OG2zy0-sRe8)
-- [#28 Creative Payment Radio Button](https://youtu.be/puA9tOWt7V8)
-- [#27 Super Stylish Custom Scrollbar](https://youtu.be/gv0tk3_Ou70)
-- [#26 Original Custom Animated Checkbox](https://youtu.be/tjMiFkQrHHQ)
-- [#25 Cool Image Card Hover Effect](https://youtu.be/5dbRRfmNsss)
-- [#24 Super Creative Product Card Border Animation](https://youtu.be/4eDhKnDhzb8)
-- [#23 Original Navigation Menu Hover Effect](https://youtu.be/FTvMze67TTo)
-- [#22 Stylish Animated Gradient Shadow Effect](https://youtu.be/3naanA-_Krw)
-- [#21 Incredibly Creative Product Card](https://youtu.be/T9Vq-8BXFXA)
-- [#20 Super Image Card Hover Effect](https://youtu.be/5dbRRfmNsss)
-- [#19 Awesome Water Wave Button](https://youtu.be/hSeNSV2Epzo)
-- [#18 Amazing 3D Flip Social Media Buttons](https://youtu.be/XlsEP9iQs1s)
-- [#17 Glitch Effect](https://youtu.be/gbXx9I1qQN4)
-- [#16 Pure CSS Parallax Effect](https://youtu.be/QEGsNQosAt0)
-- [#15 Creative One Page Slider](https://youtu.be/sOsDBYOi74Q)
-- [#14 Animated Pacman Preloader](https://youtu.be/t8jMqkEzpKo)
-- [#13 Original Card Spin Hover Effect](https://youtu.be/d1xGDF2ToEY)
-- [#12 Incredible Circular Progress Bar](https://youtu.be/hRYA1CXfwP4)
-- [#11 Outstanding Animated Gradient Buttons](https://youtu.be/TfziVoVo-94)
-- [#10 Animated Preloader Text](https://youtu.be/ITYNnrDSk68)
-- [#9 Super 3D Spinner Animation](https://youtu.be/LKI-i_J79EQ)
-- [#8 Animated Progress Bar](https://youtu.be/z-jJrClQXRQ)
-- [#7 Responsive Navigation Menu](https://youtu.be/z-3hnHn6V5w)
-- [#6 Minimalistic Error Page](https://youtu.be/32GwTL-8yXQ)
-- [#5 Neon Light Button](https://youtu.be/iha5Z6qv8xs)
-- [#4 Social Media Buttons with Incredible Hover Animation](https://youtu.be/IqMBPjwg8nM)
-- [#3 Original Cards Skewed Design](https://youtu.be/1JYPSI1ZDBc)
-- [#2 Amazing 3D Flip Card Effect](https://youtu.be/l7UbiJwE9mc)
-- [#1 Creative Button Hover Effect](https://youtu.be/qYkqQCohfAc)
+- [#1 Оригинальный Hover-эффект кнопки](https://youtu.be/qYkqQCohfAc)
+- [#2 Анимация 3D переворота карточки](https://youtu.be/l7UbiJwE9mc)
+- [#3 Карточки со скошенным дизайном](https://youtu.be/1JYPSI1ZDBc)
+- [#4 Кнопки социальных сетей с креативным Hover-эффектом](https://youtu.be/IqMBPjwg8nM)
+- [#5 Кнопка с неоновым светом](https://youtu.be/iha5Z6qv8xs)
+- [#6 Минималистичная страница ошибки](https://youtu.be/32GwTL-8yXQ)
+- [#7 Отзывчивое меню навигации](https://youtu.be/z-3hnHn6V5w)
+- [#8 Анимированный индикатор выполнения](https://youtu.be/z-jJrClQXRQ)
+- [#9 Анимация 3D вращения](https://youtu.be/LKI-i_J79EQ)
+- [#10 Анимированный текст загрузки](https://youtu.be/ITYNnrDSk68)
+- [#11 Анимированные кнопки с градиентом](https://youtu.be/TfziVoVo-94)
+- [#12 Круговая полоса прогресса](https://youtu.be/hRYA1CXfwP4)
+- [#13 Оригинальный эффект вращения карточки](https://youtu.be/d1xGDF2ToEY)
+- [#14 Анимированный загрузчик Pacman](https://youtu.be/t8jMqkEzpKo)
+- [#15 Креативный одностраничный слайдер](https://youtu.be/sOsDBYOi74Q)
+- [#16 Параллакс эффект](https://youtu.be/QEGsNQosAt0)
+- [#17 Glitch эффект](https://youtu.be/gbXx9I1qQN4)
+- [#18 Вращающиеся 3D кнопки](https://youtu.be/XlsEP9iQs1s)
+- [#19 Кнопка с анимацией волны](https://youtu.be/hSeNSV2Epzo)
+- [#20 Интересный Hover-эффект карточки](https://youtu.be/5dbRRfmNsss)
+- [#21 Креативная карточка продукта](https://youtu.be/T9Vq-8BXFXA)
+- [#22 Анимированный эффект градиентной тени](https://youtu.be/3naanA-_Krw)
+- [#23 Оригинальный Hover-эффект элементов меню](https://youtu.be/FTvMze67TTo)
+- [#24 Анимация границы карточки товара](https://youtu.be/4eDhKnDhzb8)
+- [#25 Скошенное меню с иконками](https://youtu.be/5dbRRfmNsss)
+- [#26 Пользовательский анимированный Checkbox](https://youtu.be/tjMiFkQrHHQ)
+- [#27 Стильный пользовательский Scrollbar](https://youtu.be/gv0tk3_Ou70)
+- [#28 Креативная кнопка-переключатель](https://youtu.be/puA9tOWt7V8)
+- [#29 Анимированное окно поиска](https://youtu.be/OG2zy0-sRe8)
+- [#30 Неоновый Checkbox](https://youtu.be/E1byOJ9eOoE)
+- [#31 Стильный Hover-эффект карточки](https://youtu.be/-ZHXKSwFICE)
 
 ---
 
